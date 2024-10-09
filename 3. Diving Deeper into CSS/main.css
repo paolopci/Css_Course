@@ -32,3 +32,7 @@ h1.section-title {
     width: 100%;
     padding: 8px 16px;
 }
+
+.main-nav__item {
+    display: inline-block;
+}
