@@ -24,3 +24,11 @@ h1.section-title {
     font-style: normal;
     color: #2ddf5c;
 }
+
+/* Header nav bar */
+
+.main-header {
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 8px 16px;
+}
