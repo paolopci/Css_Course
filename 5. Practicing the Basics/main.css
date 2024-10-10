@@ -23,9 +23,23 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+.plan{
+    background: #d5ffdc;
+    text-align: center;
+    display: inline-block;
+    padding: 16px;
+    margin: 8px;
+    width: 30%;
+}
+
+article.plan ul{
+    list-style: none;
+}
+
+
+
+
+
 
 .main-header {
     width: 100%;
