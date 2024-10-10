@@ -36,6 +36,7 @@ h1.section-title {
 .main-nav {
     display: inline-block;
     text-align: right;
+    width: calc(100% - 49px);
 }
 
 .main-nav__item {
@@ -45,4 +46,11 @@ h1.section-title {
 
 .main-header>div {
     display: inline-block;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    /* list-style setting i punti nella ul */
+    list-style: none;
 }
