@@ -33,20 +33,27 @@ h1.section-title {
     padding: 8px 16px;
 }
 
+.main-header>div {
+    display: inline-block;
+}
+
+.main-header__brand{
+    color:#0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px);
+    width: calc(100% - 77px);
 }
 
 .main-nav__item {
     display: inline-block;
 }
 
-
-.main-header>div {
-    display: inline-block;
-}
 
 .main-nav__items {
     margin: 0;
