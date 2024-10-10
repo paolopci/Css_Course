@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active.test{
+color:#521751
+}
+/* 
+a:not(.active){
+    color: blue;
+} */
+
+a{
+    color: blue;
+}
+
+.highlighted{
+    border: 2px solid #fa923f;
+    }
+.main-section {
+    height: 800px !important;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.highlighted{
+border: 2px solid #fa923f;
+height: 200px;
+}
