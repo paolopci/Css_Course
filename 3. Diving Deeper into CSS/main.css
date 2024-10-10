@@ -62,9 +62,22 @@ h1.section-title {
     text-decoration: none;
 }
 
+.main-nav__item > a:hover{
+    color: white;
+}
+
+.main-nav__item >a:active{
+    color: white;
+}
+
 .main-nav__items {
     margin: 0;
     padding: 0;
     /* list-style setting i punti nella ul */
     list-style: none;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 21px;
 }
