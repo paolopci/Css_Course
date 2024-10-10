@@ -16,6 +16,7 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
 #product-overview h1 {
@@ -30,15 +31,23 @@ body {
     padding: 16px;
     margin: 8px;
     width: 30%;
+    vertical-align: middle;
 }
+
+.plan--highlighted{
+    background: #2c9a4f;
+    color: white;
+    box-shadow:2px 2px 2px 2px rgb(0, 0, 0,0.5);
+}
+
+div.div-items{
+    text-align: center;
+}
+
 
 article.plan ul{
     list-style: none;
 }
-
-
-
-
 
 
 .main-header {
