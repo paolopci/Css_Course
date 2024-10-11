@@ -231,3 +231,8 @@ div.div-items {
     color: white;
     text-decoration: none;
 }
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
