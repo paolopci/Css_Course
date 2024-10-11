@@ -44,6 +44,8 @@
 
 div.div-items {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .plan__title {
