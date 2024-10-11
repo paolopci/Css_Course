@@ -23,7 +23,9 @@ main {
 
 .plans-p2 {
     background: rgb(230, 248, 235);
-    float: right
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
 }
 
 .clearfix {
