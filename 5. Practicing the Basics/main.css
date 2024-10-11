@@ -55,11 +55,26 @@ div.div-items {
     text-align: center;
 }
 
+.plan__title {
+    color: #0e4f1f;
+}
 
-ul.plan__features {
+.plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlighted h2.plan__price {
+    color: #0e4f1f;
+}
+
+.plan--highlighted h2.plan__title {
+    color: white;
 }
 
 .plan__feature {
