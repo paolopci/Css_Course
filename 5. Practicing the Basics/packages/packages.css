@@ -23,6 +23,11 @@ main {
 
 .plans-p2 {
     background: rgb(230, 248, 235);
+    float: right
+}
+
+.clearfix {
+    clear: both;
 }
 
 .plans-p3 {
