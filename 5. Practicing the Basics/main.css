@@ -73,12 +73,29 @@ div.div-items {
     color: #0e4f1f;
 }
 
-.plan--highlighted h2.plan__title {
+.plan--highlighted h1.plan__title {
     color: white;
 }
 
 .plan__feature {
     margin: 5px 0;
+}
+
+.button {
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+    background: white;
+    color: #0e4f1f;
 }
 
 
