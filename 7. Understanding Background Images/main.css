@@ -9,7 +9,7 @@
     background-clip: border-box;
     border: 5px dashed red; */
 
-    background-image: linear-gradient(15deg, red 60%, blue 80%);
+    background-image: radial-gradient(circle, red, blue);
 
     width: 100%;
     height: 528px;
