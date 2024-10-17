@@ -12,13 +12,17 @@ console.dir(selectPlanButtons);
 
 for (i = 0; i < selectPlanButtons.length; i++) {
     selectPlanButtons[i].addEventListener('click', function () {
-        backdrop.style.display = 'block';
-        modal.style.display = 'block';
+        // backdrop.style.display = 'block';
+        // modal.style.display = 'block';
+        // modal.className = 'open';
+
+        modal.classList.add('open');
+        backdrop.classList.add('open');
     });
 }
 
 backdrop.addEventListener('click', function () {
-    mobileNav.style.display = 'none';
+    mobileNav.classList.remove('open');
     closeModal();
 });
 modalNoButton.addEventListener('click', closeModal);
@@ -30,11 +34,15 @@ toggleButton.addEventListener('click', openSideBar);
 // }
 
 function closeModal() {
-    backdrop.style.display = 'none';
-    modal.style.display = 'none';
+    // backdrop.style.display = 'none';
+    // modal.style.display = 'none';
+    modal.classList.remove('open');
+    backdrop.classList.remove('open');
 }
 
 function openSideBar() {
-    mobileNav.style.display = 'block';
-    backdrop.style.display = 'block';
+    // mobileNav.style.display = 'block';
+    // backdrop.style.display = 'block';
+    mobileNav.classList.add('open');
+    backdrop.classList.add('open');
 }
