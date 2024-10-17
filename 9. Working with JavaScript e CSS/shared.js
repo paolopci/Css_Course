@@ -1,4 +1,4 @@
 
 
-var backdrop = document.querySelector('.backdrop');
+var backdrop = document.querySelectorAll('.backdrop');
 console.dir(backdrop);
