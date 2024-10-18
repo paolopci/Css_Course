@@ -98,12 +98,6 @@
   text-align: center;
 }
 
-.key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
-}
-
 .key-feature__image {
   background: #ffcede;
   width: 128px;
@@ -185,6 +179,7 @@
     width: 30%;
     vertical-align: middle;
     min-width: 12.7rem;
+    max-width: 18rem;
   }
 
   .plan--highlighted {
@@ -198,5 +193,12 @@
 
   #product-overview h1 {
     font-size: 3rem;
+  }
+
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    max-width: 18rem;
   }
 }
