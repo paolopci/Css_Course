@@ -17,10 +17,6 @@
   position: relative;
 }
 
-.section-title {
-  color: #2ddf5c;
-  text-align: center;
-}
 
 #product-overview h1 {
   color: white;
@@ -28,6 +24,44 @@
   position: absolute;
   bottom: 5%;
   left: 3%;
+  font-size: 1.6rem;
+}
+
+/* ----   Media Queries  ---- */
+
+@media (min-width:40rem) {
+  #product-overview {
+    height: 40vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
+
+@media (min-width:60rem) {
+  #product-overview {
+    height: 50vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1 {
+    font-size: 5rem;
+  }
+}
+
+
+
+
+
+
+
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
 }
 
 .plan__list {
