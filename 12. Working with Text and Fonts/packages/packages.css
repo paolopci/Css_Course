@@ -58,8 +58,9 @@ main {
     font-weight: 700;
     text-shadow: 2px 2px 7px rgb(107, 107, 107); */
 
-    font: italic small-caps 700 1.2rem "Roboto", sans-serif;
+    font: 700 1.2rem "Roboto", sans-serif;
     /*font-style font-variant font-weight font-size/line-height font-family*/
+    font-display: block;
 }
 
 .clearfix {
