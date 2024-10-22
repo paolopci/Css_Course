@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
 }
 
