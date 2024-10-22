@@ -22,7 +22,7 @@ body {
     flex-wrap: wrap;
 
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .item-1 {
