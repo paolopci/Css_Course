@@ -1,10 +1,10 @@
 .container {
     margin: 20px;
     display: grid;
-    height: 400px;
+    height: 500px;
     /* grid-template-columns: 200px 2fr 20% 1fr; */
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 5rem auto;
+    grid-template-rows: 5rem minmax(10px, 200px);
 }
 
 .el1 {
@@ -18,7 +18,7 @@
 .el3 {
     background: rgba(0, 128, 0, 0.5);
     grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-end: span 2;
 
     grid-row-start: 1;
     grid-row-end: 3;
@@ -26,6 +26,8 @@
 
 .el4 {
     background: rgba(0, 4, 255, 0.5);
+    grid-column-start: 1;
+    grid-column-end: span 2;
 }
 
 /* 
