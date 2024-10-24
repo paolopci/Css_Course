@@ -18,8 +18,12 @@
 
     grid-column: 1 / -1;
 
+    /* 
     grid-row-start: row-2-start;
-    grid-row-end: span 1;
+    grid-row-end: span 1; */
+
+    grid-row: row-2-start / span 1;
+
     z-index: 10;
 }
 
