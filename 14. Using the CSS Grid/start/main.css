@@ -42,7 +42,8 @@
 
     /* grid-row: row-2-start / span 1; */
 
-
+    justify-self: center;
+    align-self: center;
     grid-area: main;
     z-index: 10;
 }
