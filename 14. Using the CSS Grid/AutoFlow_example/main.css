@@ -2,12 +2,13 @@
   margin: 20px;
   display: grid;
   grid-template-columns: repeat(2, 15rem);
+  grid-template-rows: 30rem;
   justify-content: center;
   grid-gap: 1.5rem;
 
   grid-auto-rows: minmax(8rem, auto);
-  grid-auto-flow: column;
-  grid-auto-columns: 5rem;
+  /* grid-auto-flow: column;
+  grid-auto-columns: 5rem; */
 }
 
 .quote {
