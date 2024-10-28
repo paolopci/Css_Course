@@ -16,8 +16,8 @@ body {
   display: grid;
   grid-template-rows: 3.5rem auto fit-content(8rem);
   grid-template-areas: "header"
-                       "main"
-                       "footer";
+    "main"
+    "footer";
   /* padding-top: 3.5rem; */
   height: 100%;
 }
@@ -230,10 +230,12 @@ main {
   border: #a1a1a1;
   background: #ccc;
   color: #a1a1a1;
-} 
+}
 
+/* in riferimento alla modale */
 .open {
-    display: block !important;
+  display: block !important;
+  opacity: 1 !important;
 }
 
 @media (min-width: 40rem) {
